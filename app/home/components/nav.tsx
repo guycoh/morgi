@@ -3,7 +3,7 @@ import Link from "next/link";
 import LoanCalculator from "./loancalculator";
 import CalculatorIcon from "@/app/svgFiles/calculator";
 import DropdownMenuCal from "./dropdownMenuCal";
-import { Logout } from "@/app/logout/actions";
+
 import { DataProvider } from "@/app/context/DataContext";
 import { useDataContext } from "@/app/context/DataContext";
 import { useState } from "react";
@@ -63,11 +63,7 @@ export const Nav = () => {
               </button>
               
              </div>
-             <div className=" absolute left-14 top-3" >
-             <Link href="/signup"  className="focus:outline-none text-white bg-[#1d75a1] hover:bg-[#a39d8f] focus:ring-4 focus:ring-[#a39d8f] font-medium rounded-lg text-sm dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"> הרשמה</Link>    
-              
-             </div>
-
+             
 
 
 
@@ -89,7 +85,7 @@ export const Nav = () => {
       
     
         <ul
-          className='lg:flex lg:gap-x-5 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50 mx-16'>
+          className='lg:flex lg:gap-x-1 max-lg:space-y-1 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50 mx-16'>
          
           <li className='max-lg:border-b max-lg:py-3 px-3'>
               <Link href="/home"  className='hover:text-[#1d75a1] text-[#1d75a1] block font-bold text-[15px]'>בית</Link>
@@ -130,6 +126,11 @@ export const Nav = () => {
 
                 </form> */}
           </li>
+          <li >
+                <Link href="/signup"  className="focus:outline-none text-white bg-[#1d75a1] hover:bg-[#a39d8f] focus:ring-4 focus:ring-[#a39d8f] font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"> הרשמה</Link>    
+          </li>
+
+
      
 
         </ul>

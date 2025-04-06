@@ -1,4 +1,6 @@
 import Link from "next/link";
+import LogOut from "@/app/logout/logout";
+
 
 export default function Nav_admin() {
   return (
@@ -13,9 +15,11 @@ export default function Nav_admin() {
             <Link href="/home" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md shadow focus:outline-none">
               לאתר הבית
             </Link>
-            <Link href="/home" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md shadow focus:outline-none">
+            <LogOut/>
+            
+            {/* <Link href="/home" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md shadow focus:outline-none">
               log out
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

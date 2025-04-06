@@ -1,17 +1,17 @@
-//import PdfViewer from "./PdfViewer";
-//import Fields from "./fields";
-import PdfViewer from "./PdfViewer";
+// //import PdfViewer from "./PdfViewer";
+// //import Fields from "./fields";
+// import PdfViewer from "./PdfViewer";
 
-export default function PdfPage() {
- // const pdfUrl = "/assets/pdf/apoalim.pdf"; 
-    const pdfUrl = "/assets/pdf/contract.pdf";
-   // const pdfUrl = "/assets/pdf/form.pdf";
-  return ( 
+// export default function PdfPage() {
+//  // const pdfUrl = "/assets/pdf/apoalim.pdf"; 
+//     const pdfUrl = "/assets/pdf/contract.pdf";
+//    // const pdfUrl = "/assets/pdf/form.pdf";
+//   return ( 
 
-    <div className="flex flex-col items-center justify-center min-h-screen p-4">
+//     <div className="flex flex-col items-center justify-center min-h-screen p-4">
       
-      <h1 className="text-2xl font-bold mb-4">מציג PDF</h1>
-      <PdfViewer pdfUrl={pdfUrl} />
-    </div>
-  );
-}
+//       <h1 className="text-2xl font-bold mb-4">מציג PDF</h1>
+//       <PdfViewer pdfUrl={pdfUrl} />
+//     </div>
+//   );
+// }

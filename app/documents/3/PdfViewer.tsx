@@ -1,4 +1,4 @@
-"use client";
+//"use client";
 
 // import React, { useEffect, useState } from "react";
 // import { getDocument, PDFDocumentProxy } from "pdfjs-dist/legacy/build/pdf";

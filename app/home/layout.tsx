@@ -14,15 +14,15 @@ export default function HomeLayout({
 ){
   return (
   <>
- 
+  <div className="min-h-screen flex flex-col">
    <Nav/>
    <FloatingButton/>
-  
+   <main className="flex-grow">
    {children}
-
+   </main>
    <Footer/>
  
-  
+   </div>
    </>
 
   );

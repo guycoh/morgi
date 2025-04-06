@@ -34,7 +34,7 @@ export default function CategoryPage() {
 
   return (
     <div className="p-6">
-      <h1 className="text-2xl font-bold mb-4">Categories</h1>
+      <h1 className="text-2xl font-bold mb-4">איזה משכנתא מתאימה לי?</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {categories.map((category) => (
           <div key={category.id} className="p-4 shadow-md border rounded-lg">
